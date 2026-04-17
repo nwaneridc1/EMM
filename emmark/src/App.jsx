@@ -15,7 +15,6 @@ import Services from './Pages/Services';
 import '@fontsource/inter';
 import '@fontsource/inter/700.css';
 import { Toaster } from "react-hot-toast";
-import './App.css';
 import ScrollToTop from './Pages/ScrollToTop';
 import AboutUs from './Pages/AboutUs';
 import Footer from './Components/Footer';
