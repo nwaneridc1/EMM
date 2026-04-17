@@ -15,13 +15,13 @@ import Services from './Pages/Services';
 import '@fontsource/inter';
 import '@fontsource/inter/700.css';
 import { Toaster } from "react-hot-toast";
-import ScrollToTop from './Pages/ScrollToTop';
 import AboutUs from './Pages/AboutUs';
 import Footer from './Components/Footer';
 import ContactUs from './Pages/ContactUs';
 import Testimonials from './Pages/Testimonials';
 import Blogs from './Pages/Blogs';
 import PostDetails from './Pages/PostDetails';
+import PrivacyPolicy from './Pages/PrivacyPolicy'
 
 // ✅ Google Analytics listener
 const GAListener = () => {
@@ -39,7 +39,6 @@ const App = () => {
     <div className='font'>
       <Toaster position="top-right" reverseOrder={false} />
         <GAListener />
-        <ScrollToTop/>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<AboutUs />} />
