@@ -7,7 +7,6 @@ ReactGA.initialize("G-EJW03PCDN0"); // ✅ Your GA4 Measurement ID
 // Pages
 import Home from './Pages/Home';
 import Services from './Pages/Services';
-import PrivacyPolicy from './Pages/Privacy';
 
 // Components
 
@@ -51,7 +50,6 @@ const App = () => {
           <Route path='/testimonials' element={<Testimonials />} />
           <Route path='/contact' element={<ContactUs />} />
           <Route path='/privacy' element={<PrivacyPolicy />} />
-          
         </Routes>
         <Footer />
     </div>

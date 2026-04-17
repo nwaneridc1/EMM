@@ -1,11 +1,11 @@
 import React, { useEffect, useRef, useState } from "react";
 import { assets } from "../asset/assets";
-import Achievements from "../Components/Achievements.jsx";
-import Reviews from "./Reviews.jsx";
-import Banner from "../Components/Banner.jsx";
-import Newsletter from "./Newsletter.jsx";
+import Achievements from "../Components/Achievements";
+import Reviews from "./Reviews";
+import Banner from "../Components/Banner";
+import Newsletter from "./Newsletter";
 import { useNavigate } from "react-router-dom";
-import Faq from "../Components/Faq.jsx";
+import Faq from "../Components/Faq";
 
 const AboutUs = () => {
   const [menuOpen, setMenuOpen] = useState(false);
