@@ -41,41 +41,40 @@ const Newsletter = () => {
               </span>
             </div>
           </div>
-          <h1 className="text-4xl md:text-[46px] max-md:mt-3 text-balance md:leading-[60px] max-w-md font-semibold bg-gradient-to-r from-white to-[#CAABFF] text-transparent bg-clip-text">
+          <h1 className="text-2xl md:text-[46px] max-md:mt-3 text-balance md:leading-[60px] max-w-md font-semibold bg-gradient-to-r from-white to-[#CAABFF] text-transparent bg-clip-text">
             Join our newsletter & Stay Updated
           </h1>
         </div>
-        <div className="flex items-center gap-2 bg-violet-900 max-md:mt-6 pl-4 h-11 text-sm rounded-full overflow-hidden">
-          <svg
-            width="18"
-            height="18"
-            viewBox="0 0 18 18"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M16.5 5.25L9.75675 9.54525C9.52792 9.67816 9.268 9.74817 9.00337 9.74817C8.73875 9.74817 8.47883 9.67816 8.25 9.54525L1.5 5.25"
-              stroke="#CAD5E2"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-            <path
-              d="M15 3H3C2.17157 3 1.5 3.67157 1.5 4.5V13.5C1.5 14.3284 2.17157 15 3 15H15C15.8284 15 16.5 14.3284 16.5 13.5V4.5C16.5 3.67157 15.8284 3 15 3Z"
-              stroke="#CAD5E2"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-          <input
-            type="text"
-            placeholder="Enter your email..."
-            className="outline-none h-11 bg-transparent"
+        <div className="flex items-center gap-2 bg-violet-900 max-md:mt-6 text-sm rounded-full overflow-hidden">
+           <form class="flex items-center justify-between w-full md:h-13 h-12">
+        <input
+          class="font-ovo rounded-md h-full border-r-0 outline-none w-full rounded-r-none px-3 text-gray-500"
+          type="text"
+          placeholder="Enter your email id"
+          required
+        />
+        <button
+          type="submit"
+          className="
+      group relative inline-flex items-center justify-center
+      px-12 py-4 text-xs uppercase tracking-[0.35em]
+      font-serif text-black border border-black/50
+      overflow-hidden
+    "
+        >
+          <span
+            className="
+        absolute inset-0 bg-black
+        transform scale-x-0 origin-left
+        transition-transform duration-500 ease-in-out
+        group-hover:scale-x-100
+      "
           />
-          <button className="px-6 h-10 mr-1 rounded-full border border-violet-600 bg-violet-800">
+          <span className="relative z-10 group-hover:text-white transition-colors duration-500">
             Subscribe
-          </button>
+          </span>
+        </button>
+      </form>
         </div>
       </div>
     </div>

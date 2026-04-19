@@ -37,7 +37,15 @@ const Footer = () => {
             Contact
           </a>
           <a
-            href="/contact"
+            href="/privacy"
+            className="hidden md:block font-medium text-gray-500 hover:text-black transition-all"
+          >
+            Privacy Policy
+          </a>
+        </div>
+        <div className="block md:hidden mt-4">
+           <a
+            href="/privacy"
             className="font-medium text-gray-500 hover:text-black transition-all"
           >
             Privacy Policy

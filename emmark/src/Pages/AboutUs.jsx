@@ -230,27 +230,36 @@ const AboutUs = () => {
         </nav>
 
         {/* HERO */}
+      <div className="mb-10">
         <div className="rainbow relative z-0 bg-white/10 overflow-hidden p-px flex items-center justify-center rounded-full transition duration-300 active:scale-100 mt-24 md:mt-28">
-          <button className="flex items-center justify-center gap-3 pl-4 pr-6 py-4 text-white rounded-full font-medium bg-black/10 backdrop-blur">
-            <div className="relative flex size-5 items-center justify-center">
-              <span className="absolute inline-flex h-full w-full rounded-full bg-blue-500 opacity-75 animate-ping duration-300"></span>
-              <span className="absolute inline-flex h-full w-full rounded-full bg-blue-600 opacity-75 animate-ping duration-400"></span>
-              <span className="relative inline-flex size-3 rounded-full bg-blue-700"></span>
-            </div>
-            <span className="text-md">Emmark Tech Solutions</span>
-          </button>
-        </div>
+        <button className="flex items-center justify-center gap-3 pl-4 pr-6 py-4 text-white rounded-full font-medium bg-black/10 backdrop-blur">
+          <div className="relative flex size-5 items-center justify-center">
+            <span className="absolute inline-flex h-full w-full rounded-full bg-blue-500 opacity-75 animate-ping duration-300"></span>
+            <span className="absolute inline-flex h-full w-full rounded-full bg-blue-600 opacity-75 animate-ping duration-400"></span>
+            <span className="relative inline-flex size-3 rounded-full bg-blue-700"></span>
+          </div>
+          <span className="text-md">Emmark Tech Solutions</span>
+        </button>
+      </div>
+      </div>
 
-        <h1 className="text-4xl md:text-6xl text-center font-semibold max-w-4xl mt-5 font-serif">
-          Learn and discover the brand you love.
-        </h1>
+     <div>
+       <h1 className="text-4xl md:text-6xl text-center font-semibold max-w-4xl mt- font-serif">
+        About the brand
+      </h1>
 
-        {/* <div className="flex gap-7 mt-6">
-                <button className="px-6 py-2 bg-gradient-to-r from-indigo-600 to-[#8A7DFF] hover:bg-blue-700 rounded-full">
-                  Get Started
-                </button>
-                <button className="px-6 py-2 border rounded-full">Learn More</button>
-              </div> */}
+     </div>
+      {/* <p className="text-slate-300 text-center max-w-2xl mt-3">
+       We build digital solutions and nurture talent, helping individuals and businesses grow confidently in tech.
+      </p> */}
+
+      <div className="flex gap-7 mt-12">
+        <button onClick={() => navigate("/")} className="px-6 py-2 bg-gradient-to-r from-indigo-600 to-[#8A7DFF] hover:bg-blue-700 rounded-full">
+          Home
+        </button>
+        <div className="text-white py-2 text-xl">•</div>
+        <button className="px-6 py-2 border rounded-full">About Us</button>
+      </div>
       </section>
 
       {/* ///Next section starts from here */}
