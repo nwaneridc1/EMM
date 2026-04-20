@@ -2,12 +2,23 @@ import logo from "./logo.png";
 import dropdown_icon from "./dropdown_icon.png";
 import menu_icon from "./menu_icon.png";
 import cross_icon from "./cross_icon.png";
+import file1 from "./file1.jpg"
+import file2 from "./file2.jpg"
+import file3 from "./file3.jpg"
+import file4 from "./file4.jpg"
+import file5 from "./file5.jpg"
+import file6 from "./file6.jpg"
+ import file7 from "./file7.jpg"
+ import file8 from "./file8.jpg"
+ import file9 from "./file9.jpg"
+ import file10 from "./file10.jpg"
 
 export const assets = {
   logo,
   dropdown_icon,
   menu_icon,
   cross_icon,
+  file1, file2, file3, file4, file5, file6, file7, file8, file9, file10
 };
 
 export const blogs = [

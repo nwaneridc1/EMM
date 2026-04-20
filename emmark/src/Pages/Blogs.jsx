@@ -51,17 +51,16 @@ const Blogs = () => {
   const events = [
     {
       id: 1,
-      image:
-        "https://assets.prebuiltui.com/images/components/feature-sections/ai-avatar-image1.png",
+      image: assets.file4,
       title: "Earning in tech 1.0",
-      date: "01.05.2025",
+      date: "18.07.2024",
       description:
         "Earning in tech, a pathway to success and financial freedom in 2025.",
       status: "completed",
     },
     {
       id: 2,
-      image: assets.graphics,
+      image: assets.file7,
       title: "Earning in tech 2.0",
       date: "28.06.2025",
       description:
@@ -70,20 +69,28 @@ const Blogs = () => {
     },
     {
       id: 3,
-      image:
-        "https://assets.prebuiltui.com/images/components/feature-sections/ai-avatar-image3.png",
-      title: "Free AI training",
-      date: "09.01.2026",
+      image: assets.file10,
+      title: "Earning in tech 2.0",
+      date: "12.07.2025",
       description:
-        "A free AI training for techies. Featuring basic to advanced lessons.",
+        "Earning in tech, a pathway to success and financial freedom in 2025.",
       status: "completed",
     },
     {
       id: 4,
+      image: assets.file3,
+      title: "Tech summer school",
+      date: "15.08.2025",
+      description:
+        "Summer school for future worldchangers. Catch them young!!!",
+      status: "completed",
+    },
+    {
+      id: 5,
       image:
         "https://assets.prebuiltui.com/images/components/feature-sections/ai-avatar-image4.png",
       title: "NextGen summit",
-      date: "23.09.2026",
+      date: "Anticipate",
       description:
         "NextGen tech summit, a conference for world changers. Don't miss out.",
       status: "upcoming",
@@ -230,97 +237,85 @@ const Blogs = () => {
           <div className="relative group flex-grow transition-all w-56 rounded-lg overflow-hidden h-[400px] duration-500 hover:w-full">
             <img
               className="h-full w-full object-cover object-center"
-              src="https://images.unsplash.com/photo-1719368472026-dc26f70a9b76?q=80&h=800&w=800&auto=format&fit=crop"
+              src={assets.file1}
               alt="image"
             />
             <div className="absolute inset-0 flex flex-col justify-end p-10 text-white bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-300">
-              <h1 className="text-3xl">Next Gen. Tech Summit</h1>
+              <h1 className="text-3xl">New week, full composure</h1>
               <p className="text-sm mt-1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Exercitationem quidem, quae magnam eius molestias dignissimos
-                adipisci
+                "SUccess is not final,and failure is not fatal. It is the courage to continue that counts."
               </p>
-              <p className="text-sm mt-2">13.07.2025</p>
+              <p className="text-sm mt-2">26.05.2025</p>
             </div>
           </div>
           <div className="relative group flex-grow transition-all w-56 rounded-lg overflow-hidden h-[400px] duration-500 hover:w-full">
             <img
               className="h-full w-full object-cover object-center"
-              src="https://images.unsplash.com/photo-1649265825072-f7dd6942baed?q=80&h=800&w=800&auto=format&fit=crop"
+              src={assets.file8}
               alt="image"
             />
             <div className="absolute inset-0 flex flex-col justify-end p-10 text-white bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-300">
-              <h1 className="text-3xl">Next Gen. Tech Summit</h1>
+              <h1 className="text-3xl">Welcome to June</h1>
               <p className="text-sm mt-1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Exercitationem quidem, quae magnam eius molestias dignissimos
-                adipisci
+               "Technology will never replace great teachers. But technology in the hands of great teachers is transformation"
               </p>
-              <p className="text-sm mt-2">13.07.2025</p>
+              <p className="text-sm mt-2">01.06.2025</p>
             </div>
           </div>
           <div className="relative group flex-grow transition-all w-56 rounded-lg overflow-hidden h-[400px] duration-500 hover:w-full">
             <img
               className="h-full w-full object-cover object-center"
-              src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?q=80&h=800&w=800&auto=format&fit=crop"
+              src={assets.file10}
               alt="image"
             />
             <div className="absolute inset-0 flex flex-col justify-end p-10 text-white bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-300">
-              <h1 className="text-3xl">Next Gen. Tech Summit</h1>
+              <h1 className="text-3xl">Earning in tech 2.0</h1>
               <p className="text-sm mt-1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Exercitationem quidem, quae magnam eius molestias dignissimos
-                adipisci
+               Discover earning oppurtunities in: Blockchain technology, web3, Cyber security, Graphics design and more!!
               </p>
-              <p className="text-sm mt-2">13.07.2025</p>
+              <p className="text-sm mt-2">12.07.2025</p>
             </div>
           </div>
           <div className="relative group flex-grow transition-all w-56 rounded-lg overflow-hidden h-[400px] duration-500 hover:w-full">
             <img
               className="h-full w-full object-cover object-center"
-              src="https://images.unsplash.com/photo-1729086046027-09979ade13fd?q=80&h=800&w=800&auto=format&fit=crop"
+              src={assets.file3}
               alt="image"
             />
             <div className="absolute inset-0 flex flex-col justify-end p-10 text-white bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-300">
-              <h1 className="text-3xl">Next Gen. Tech Summit</h1>
+              <h1 className="text-3xl">Tech summer school</h1>
               <p className="text-sm mt-1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Exercitationem quidem, quae magnam eius molestias dignissimos
-                adipisci
+                Catch the young!! This summer, let your kids be part of the summer tech school as an investment into their futures. DISCOUNT FOR SIBLINGS APPLY
               </p>
-              <p className="text-sm mt-2">13.07.2025</p>
+              <p className="text-sm mt-2">15.08.2025</p>
             </div>
           </div>
           <div className="relative group flex-grow transition-all w-56 rounded-lg overflow-hidden h-[400px] duration-500 hover:w-full">
             <img
               className="h-full w-full object-cover object-center"
-              src="https://images.unsplash.com/photo-1601568494843-772eb04aca5d?q=80&h=800&w=800&auto=format&fit=crop"
+              src={assets.file2}
               alt="image"
             />
             <div className="absolute inset-0 flex flex-col justify-end p-10 text-white bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-300">
-              <h1 className="text-3xl">Next Gen. Tech Summit</h1>
+              <h1 className="text-3xl">New product alert!!</h1>
               <p className="text-sm mt-1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Exercitationem quidem, quae magnam eius molestias dignissimos
-                adipisci
+               "Stock Track". From your shelves to the counters, stocktrack will help you track it all. This application is suitable for business at all levels, and helps in tracking inventory.
               </p>
-              <p className="text-sm mt-2">13.07.2025</p>
+              <p className="text-sm mt-2">13.09.2025</p>
             </div>
           </div>
           <div className="relative group flex-grow transition-all w-56 rounded-lg overflow-hidden h-[400px] duration-500 hover:w-full">
             <img
               className="h-full w-full object-cover object-center"
-              src="https://images.unsplash.com/photo-1585687501004-615dfdfde7f1?q=80&h=800&w=800&auto=format&fit=crop"
+              src={assets.file9}
               alt="image"
             />
             <div className="absolute inset-0 flex flex-col justify-end p-10 text-white bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-300">
-              <h1 className="text-3xl">Next Gen. Tech Summit</h1>
+              <h1 className="text-3xl">Happy Independence day</h1>
               <p className="text-sm mt-1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Exercitationem quidem, quae magnam eius molestias dignissimos
-                adipisci
+               "Freedom is never volutrarily given by the oppressor, but it must be demanded for by the oppressed"
               </p>
-              <p className="text-sm mt-2">13.07.2025</p>
+              <p className="text-sm mt-2">01.10.2025</p>
             </div>
           </div>
         </div>
@@ -389,7 +384,7 @@ const Blogs = () => {
               <img
                 src={event.image}
                 alt={event.title}
-                className="w-full max-w-56 object-cover mb-6"
+                className="w-full max-w-56 min-h-56 object-cover mb-6"
               />
               <div className="w-full max-w-56 flex flex-col h-full">
                 <h3 className="text-base font-medium text-slate-900 mb-2">
