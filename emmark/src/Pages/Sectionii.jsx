@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Sectionii = () => {
+   const navigate = useNavigate()
   const companyLogos = [
     "slack",
     "framer",
@@ -163,6 +165,7 @@ const Sectionii = () => {
               help you thrive in today's fast-evolving tech world.
             </p>
             <a
+             onClick={() => navigate("/services")}
               href="#"
               className="flex items-center w-max gap-2 mt-8 hover:-translate-y-0.5 transition bg-gradient-to-r from-indigo-600 to-[#8A7DFF] py-3 px-8 rounded-full text-white"
             >

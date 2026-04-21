@@ -16,36 +16,46 @@ const Blogs = () => {
   const cards = [
     {
       id: 1,
-      image:
-        "https://assets.prebuiltui.com/images/components/feature-sections/ai-avatar-image1.png",
-      title: "AI Character Maker",
-      date: "01.05.2025",
-      description: "Generate any character or images you want.",
+      image: assets.file1,
+      title: "New week, full composure",
+      date: "26.05.2025",
+      description: "SUccess is not final,and failure is not fatal. It is the courage to continue that counts.",
     },
     {
       id: 2,
-      image:
-        "https://assets.prebuiltui.com/images/components/feature-sections/ai-avatar-image2.png",
-      title: "AI Influencers",
-      date: "21.08.2025",
-      description: "Create a model or AI influencer to grow your brands.",
+      image: assets.file8,
+      title: "Welcom to June",
+      date: "01.06.2025",
+      description: "Technology will never replace great teachers. But technology in the hands of great teachers is transformation",
     },
     {
       id: 3,
-      image:
-        "https://assets.prebuiltui.com/images/components/feature-sections/ai-avatar-image3.png",
-      title: "AI Paintings",
-      date: "12.03.2026",
-      description: "Draw or make a painting with the help of AI.",
+      image: assets.file10,
+      title: "Earning in tech 2.0",
+      date: "12.07.2025",
+      description: " Discover earning oppurtunities in: Blockchain technology, web3, Cyber security, Graphics design and more!!",
     },
     {
       id: 4,
-      image:
-        "https://assets.prebuiltui.com/images/components/feature-sections/ai-avatar-image4.png",
-      title: "AI Image Upscaler",
-      date: "23.04.2026",
-      description: "Upscale your low quality image to make it in high quality.",
+      image: assets.file3,
+      title: "Tech summer school",
+      date: "15.08.2025",
+      description: " Catch the young!! This summer, let your kids be part of the summer tech school as an investment into their futures. DISCOUNT FOR SIBLINGS APPLY",
     },
+    {
+      id: 5,
+      image: assets.file2,
+      title: "New product alert!",
+      date: "13.09.2025",
+      description: "'Stock Track' From your shelves to the counters, stocktrack will help you track it all. This application is suitable for business at all levels, and helps in tracking inventory."
+    },
+    {
+      id: 6,
+      image: assets.file9,
+      title: "Happy Independence Day",
+      date: "01.10.2025",
+      description: "Freedom is never volutrarily given by the oppressor, but it must be demanded for by the oppressed"
+    }
   ];
   ///////////////////Events ////////////////////////////////////
   const events = [
@@ -341,7 +351,7 @@ const Blogs = () => {
                   <div className="text-xs text-slate-700 leading-relaxed">
                     {card.date}
                   </div>
-                  <button className="inline-flex items-center gap-2 bg-transparent border-0 text-slate-700 text-xs cursor-pointer p-0 hover:gap-2 group">
+                  {/* <button className="inline-flex items-center gap-2 bg-transparent border-0 text-slate-700 text-xs cursor-pointer p-0 hover:gap-2 group">
                     SEE NOW
                     <svg
                       width="22"
@@ -359,7 +369,7 @@ const Blogs = () => {
                         strokeLinejoin="round"
                       />
                     </svg>
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>

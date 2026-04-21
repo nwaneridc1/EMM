@@ -141,7 +141,7 @@ const PrivacyPolicy = () => {
           </p>
           <p className="mt-4 text-slate-500">Effective Date: 12th June, 2024</p>
         </div>
-         <div className="relative shadow-2xl md:hidden shadow-indigo-600/40 rounded-2xl overflow-hidden shrink-0">
+         <div className="relative shadow-2xl md:hidden shadow-indigo-600/40 rounded-2xl overflow-hidden shrink-0 pb-5">
             <img
               className="max-w-md w-full object-com rounded-2xl"
               src="https://i.pinimg.com/1200x/8a/72/ea/8a72eae989508f49244da3c9824fcf6a.jpg"

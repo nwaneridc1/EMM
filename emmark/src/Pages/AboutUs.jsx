@@ -42,7 +42,7 @@ const AboutUs = () => {
     {
       name: "Mark Onwa",
       role: "CEO, Lead Engineer",
-      img: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=600",
+      img: assets.file6,
     },
     {
       name: "Majesty Harrison",

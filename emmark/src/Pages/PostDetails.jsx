@@ -1,3 +1,4 @@
+import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { assets, blogs } from "../asset/assets";
 import Newsletter from "./Newsletter";
